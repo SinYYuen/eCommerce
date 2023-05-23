@@ -3,12 +3,17 @@
 
 
 //Development APIs
-const addAPI = 'http://localhost:8080/eScriptCoder/add';
+//const addAPI = 'http://localhost:8080/eScriptCoder/add';
+
+//production APIs
+const addAPI = 'https://sinyuenecommerce.azurewebsites.net/eScriptCoder/add';
+//const addAPI = 'https://sinyuenecommerce.azurewebsites.net/item/add';
+
 
 
 ////production APIs
-//// const addAPI = 'XXX/eScriptCoder/add';
-//// const addAPI = 'https://webdemoedward.azurewebsites.net/item/all';
+//// const addAPI = 'https://webdemoedward.azurewebsites.net/product/add';
+//// const displayCategoryAPI = 'https://webdemoedward.azurewebsites.net/product/all';
 //
 //function displayProduct() {
 //    //fetch data from database using the REST API endpoint from Spring Boot

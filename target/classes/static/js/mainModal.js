@@ -172,7 +172,7 @@ const displayDetails = (index) => {
 
 
                             <div id="productImgContainer">
-                            <img id="modalImg" src="${filteredProductList[index].product_url}" width=80% />
+                            <img id="modalImg" src="${filteredProductList[index].product_url}" width=60% />
                             </div>
                             <hr>
                             <b>Description:</b> <span id="modalDescription">Sample Product Description</span> <br />
